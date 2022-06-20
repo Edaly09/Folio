@@ -11,10 +11,9 @@ header{
     display: flex;
     margin-top: 32px;
     justify-content: space-between;
-    /* padding-top: 20PX;
-    padding-bottom: 20px; */
     gap: 120px;
-
+background-color:beige;
+box-shadow: black;
     
 }
 nav{
@@ -62,7 +61,7 @@ h1{
     font-weight: bold;
     font-family: monospace;
     letter-spacing: 7px;
-    cursor: pointer;
+    /* cursor: pointer; */
     margin-top: 60px;
     text-align: center;
   }
@@ -255,8 +254,12 @@ margin-left: 195px;
     }
   }
   
-  
-  
+  header h2{
+    display: none;
+  }
+  footer h2{
+    display: none;
+  }
   .debug .jt__row:nth-child(even) {
     color: black;
     background: white;
@@ -268,12 +271,7 @@ margin-left: 195px;
   
   * { box-sizing: border-box }
 
-  /* footer{
-    margin-top: 20px;
-    background-color: cadetblue;
-    border: solid;
-    border-bottom-style: double;
-  } */
+ 
   .burger{
     display: none;
   }
@@ -283,9 +281,7 @@ margin-left: 195px;
     nav{
       display: none;
     }
-/* .container{
-  display: block;
-} */
+
 
 .burger{
   display: flex;
@@ -357,6 +353,15 @@ nav a:hover{
                   font-size: xx-large;
                   font-weight: bold;
 }
+.metier :hover{
+  transition: .5s linear; 
+  text-shadow: 0 0 10px rgb(150, 23, 23),
+  0 0 20px rgb(114, 9, 9), 
+  0 0 40px rgb(143, 6, 6);
+  text-transform:uppercase;
+  font-size: xx-large;
+  font-weight: bold;
+}
 .container{
     display: flex;
     margin-left: 100px;
@@ -400,15 +405,11 @@ body{
 .bienvenue p{
     margin-bottom: 15PX;
 }
-/* footer img{
-width: 100px;
-align-items: center;
-} */
+
   footer{
-    margin-top: 20px;
+    margin-top: 80px;
     background-color: white;
-    /* border: solid; */
-    /* border-bottom-style: double; */
+    
     width: 100%;
   }
   
@@ -506,6 +507,7 @@ section.compet{
   }
   .infos{
     align-items: center;
+    gap: 6px;
   }
   .moi{
 display: none;
@@ -513,4 +515,13 @@ display: none;
   .burger{
     display: flex;
   }
+  header h2{
+    display: flex;
+  }
+  footer h2{
+    display: flex;
+  }
+}
+.animeFo{
+  margin-top: 100px;
 }
