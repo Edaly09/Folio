@@ -257,9 +257,9 @@ margin-left: 195px;
   header h2{
     display: none;
   }
-  footer h2{
+  /* footer h2{
     display: none;
-  }
+  } */
   .debug .jt__row:nth-child(even) {
     color: black;
     background: white;
@@ -299,6 +299,7 @@ margin-left: 195px;
 .compet h2{
     backround-color:violet;
     /* margin-left: -5px; */
+    margin-left: 172px;
     
   }
 .compet{
@@ -485,7 +486,6 @@ section.compet{
 }
 .back{
   background-color: black;
-  /* background: rgba(12,13,14,0.49) url("/images/smiley.png") no-repeat scroll -10px 0px; */
   color: white;
 }
 .moi{
@@ -520,6 +520,10 @@ display: none;
   }
   footer h2{
     display: flex;
+  }
+  .back{
+    background-color:white;
+    color: black;
   }
 }
 .animeFo{
