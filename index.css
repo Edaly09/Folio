@@ -11,7 +11,7 @@ header{
     display: flex;
     margin-top: 32px;
     justify-content: space-between;
-    gap: 120px;
+    gap: 130px;
 background-color:beige;
 box-shadow: black;
     
@@ -50,6 +50,7 @@ nav a:hover{
 body{
     /* background-image: url("/image/EDALY.png"); */
     font-family: 'Oswald', sans-serif;
+    width: auto;
 }
 .moi{
 text-align: center;
@@ -275,6 +276,15 @@ margin-left: 195px;
   .burger{
     display: none;
   }
+
+  @media (max-width:992px) {
+
+    footer{
+      margin-top: 80px;
+      
+      width: 100%;
+    }
+  }
   
   @media (max-width:768px) 
    {
@@ -407,12 +417,7 @@ body{
     margin-bottom: 15PX;
 }
 
-  footer{
-    margin-top: 80px;
-    background-color: white;
-    
-    width: 100%;
-  }
+ 
   
 
   /* partie contact */
@@ -441,6 +446,8 @@ body{
 .contact{
     display:flex;
     /* flex-direction: column; */
+    width: fit-content;
+    /* margin-left: 400px; */
 }
 .art1{
     display: block;
@@ -467,9 +474,10 @@ body{
     gap: 40px;
 }
 section.contact{
-    background-color: rgb(231, 224, 224);
-    gap:60px;
+    /* background-color: rgb(231, 224, 224); */
+    gap:40px;
     justify-content: center;
+    /* margin-left: 400px; */
 }
 .logoicone{  
     margin-left: 300px;
@@ -504,7 +512,9 @@ section.compet{
 @media (max-width:768px) {
   .contact{
     align-items: center;
+    width: max-content;
   }
+  
   .infos{
     align-items: center;
     gap: 6px;
