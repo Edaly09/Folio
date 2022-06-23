@@ -477,7 +477,8 @@ section.contact{
     /* background-color: rgb(231, 224, 224); */
     gap:40px;
     justify-content: center;
-    /* margin-left: 400px; */
+    margin-left: -13px;
+    margin-right: 100px;
 }
 .logoicone{  
     margin-left: 300px;
