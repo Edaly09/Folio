@@ -521,6 +521,10 @@ display: none;
   footer h2{
     display: flex;
   }
+  footer{
+    width: auto;
+    margin-left: auto;
+  }
   .back{
     background-color:white;
     color: black;
