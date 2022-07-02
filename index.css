@@ -12,29 +12,70 @@ header{
     margin-top: 32px;
     justify-content: space-between;
     gap: 130px;
-/* background-color:black; */
-box-shadow: black;
-/* background-image: url("./image/code.jpg"); */
-  padding-bottom: 80px;
-
+    /* box-shadow: black; */
+    color: white;
+}
+.pcode{
+background-image: url("./image/Monochrome\ Work\ Desk\ Design\ Proposal\ Presentation.png");
+padding-bottom: 200px;
 
 }
+.pcode{
+  text-align: center;
+  padding-top: 80px;
+}
+.pcode a{
+  color: white;
+  text-decoration: none;
+}
+.hi{
+  background-color: rgb(41, 41, 119);
+}
+h4{
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  color: white;
+  font-size:xx-large;
+}
+.pcode p{
+  color: white;
+}
+.annonce{
+  background-image: url("./image/Océan\ Motivant\ Affiche1.png");
+  padding-top: 50px;
+  padding-bottom: 100px;
+  margin-top: 200px;
+  padding-left: 100px;
+  padding-right: 100px;
+
+}
+.annonce p{
+  color: white;
+  text-align: center;
+  font-family: 'Courgette', cursive;
+  font-size: xx-large;
+
+}
+
 nav{
     display: flex;
     align-items: center;
     gap: 45px;
-    /* margin-left: 900px; */
-    /* font-family: 'Oswald', sans-serif; */
     font-family: 'Courgette', cursive;
     margin-right: 100px;
+    color: white;
+
+   
 }
 
 nav a{
-    color:black;
     text-decoration: none;
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
     font-size: medium;
+    text-decoration: white;
+   
 
 }
 nav a:hover{
@@ -96,8 +137,8 @@ h1{
     
   }
   p{
-font-family: 'Courgette', cursive;
-font-size: large;
+font-family:Arial, Helvetica, sans-serif;
+font-size: x-large;
 
   }
   
@@ -186,6 +227,10 @@ margin-bottom: 40px;
   .compet{
     display:block;
     gap: 20px;
+    width: 40%;
+  }
+  #contact{
+ margin-top:60px;
   }
 
   .compet h2{
@@ -194,13 +239,39 @@ margin-bottom: 40px;
   }
   .logoicone{
     display: flex;
-    gap: 30px;
+    gap: 10px;
   }
   .compet h3{
-    text-align: center;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 30PX;
   }
 
-
+  .telechargement{
+    display: flex;
+    gap: 200px;
+    
+    
+  }
+  .telechargement a{
+    text-decoration: none;
+  }
+ 
+  .cv{
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+    
+  }
+  .insertion{
+    width: 400px;
+    border-radius: 50px;
+  }
+  .Insertion{
+    display: flex;
+    gap: 70px;
+  }
+  
 
   
   @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
@@ -503,7 +574,8 @@ section.contact{
     margin-right: 100px;
 }
 .logoicone{  
-    margin-left: 300px;
+    margin-left: 100px;
+    display: block;
     
 }
 section.compet{
@@ -573,9 +645,10 @@ display: none;
 .monfooter{
   display: flex;
   margin-top: 100px;
-  background-color: blanchedalmond;
+  background-image: url("./image/Sans\ titre.png");
   color: black;
   padding-bottom: 100px;
+  padding-top: 200px;
 }
 .projet{
   display: flex;
