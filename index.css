@@ -4,26 +4,26 @@
 /* font-family: 'Courgette', cursive; */
 
 
-
-
-
 header{
     display: flex;
     margin-top: 32px;
     justify-content: space-between;
     gap: 130px;
-    /* box-shadow: black; */
     color: white;
+    width: 100%;
 }
 .pcode{
 background-image: url("./image/Monochrome\ Work\ Desk\ Design\ Proposal\ Presentation.png");
 padding-bottom: 200px;
+width: 100%;
+text-align: center;
+padding-top: 80px;
 
 }
-.pcode{
-  text-align: center;
-  padding-top: 80px;
+.pcode p{
+  color: white;
 }
+
 .pcode a{
   color: white;
   text-decoration: none;
@@ -38,9 +38,7 @@ h4{
   color: white;
   font-size:xx-large;
 }
-.pcode p{
-  color: white;
-}
+
 .annonce{
   background-image: url("./image/Océan\ Motivant\ Affiche1.png");
   padding-top: 50px;
@@ -48,6 +46,7 @@ h4{
   margin-top: 200px;
   padding-left: 100px;
   padding-right: 100px;
+  width: 100%;
 
 }
 .annonce p{
@@ -93,7 +92,7 @@ nav a:hover{
 body{
     /* background-image: url("/image/EDALY.png"); */
     font-family: 'Oswald', sans-serif;
-    width: auto;
+    width: 100%;
 }
 .moi{
 text-align: center;
@@ -106,7 +105,6 @@ h1{
     font-weight: bold;
     font-family: monospace;
     letter-spacing: 7px;
-    /* cursor: pointer; */
     margin-top: 60px;
     text-align: center;
   }
@@ -131,9 +129,6 @@ h1{
     margin-top: 30px;
     text-align: justify;
     margin-right: 20px;
-
-
-  
     
   }
   p{
@@ -142,7 +137,7 @@ font-size: x-large;
 
   }
   
-  .propos h2{
+  /* .propos h2{
      color: #fff;
     text-shadow: 0 0 10px rgb(150, 23, 23),
                  0 0 20px rgb(114, 9, 9), 
@@ -150,11 +145,10 @@ font-size: x-large;
                  text-transform:uppercase;
                  font-size: xx-large;
                  font-weight: bold;
-  }
+  } */
   .arti{
     margin-top: 40px;
-    /* text-align:justify; */
-    width: 50%;
+    width: 100%;
     gap: 10px;
   }
   h2:hover{
@@ -196,11 +190,7 @@ margin-bottom: 40px;
     width: 50%;
     margin-top: 34px;
   }
-  @media (max-width:768px) {
-    nav{
-        display: none;
-    }
-  }
+  
   .propos h2{
     margin-bottom: 20px;
     font-size: larger;
@@ -227,9 +217,9 @@ margin-bottom: 40px;
   .compet{
     display:block;
     gap: 20px;
-    width: 40%;
+    width: 50%;
   }
-  #contact{
+  .contact{
  margin-top:60px;
   }
 
@@ -240,6 +230,7 @@ margin-bottom: 40px;
   .logoicone{
     display: flex;
     gap: 10px;
+    width: 100%;
   }
   .compet h3{
     text-align: left;
@@ -250,6 +241,7 @@ margin-bottom: 40px;
   .telechargement{
     display: flex;
     gap: 200px;
+    width: 100%;
     
     
   }
@@ -264,12 +256,15 @@ margin-bottom: 40px;
     
   }
   .insertion{
-    width: 400px;
+    width: 20%;
     border-radius: 50px;
+    display: flex;
   }
   .Insertion{
     display: flex;
     gap: 70px;
+    width: 100%;
+    margin-bottom:70px
   }
   
 
@@ -370,59 +365,8 @@ margin-bottom: 40px;
     display: none;
   }
 
-  @media (max-width:992px) {
-
-    footer{
-      margin-top: 80px;
-      
-      width: 100%;
-    }
-  }
   
-  @media (max-width:768px) 
-   {
-    nav{
-      display: none;
-    }
-
-
-.burger{
-  display: flex;
-  width: 50px;
-}
-.logoicone{
-  display: block;
-  gap: 30px;
-  margin-left: 80px;
-}
-.compet h3{
-  text-align:left;
-  
-}
-.compet h2{
-    backround-color:violet;
-    /* margin-left: -5px; */
-    margin-left: 172px;
-    
-  }
-.compet{
-  margin-left: -200px;
-}
-.propos h2{
-  margin-left: 30px;
-}
-h1{
-  text-align: left;
-}
-.resu{
-  margin-left: 60px;
-}
-.arti{
-  margin-left: 50px;
-}
-
-  }
-
+ 
   /* accueil */
 
   @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
@@ -472,8 +416,8 @@ nav a:hover{
     margin-right: 80px;
     margin-top: 80px;
     margin-bottom: 100px;
-    /* border: solid; */
     padding-left: 100px;
+    width: 100%;
 }
 
 
@@ -538,9 +482,7 @@ body{
 }
 .contact{
     display:flex;
-    /* flex-direction: column; */
-    width: fit-content;
-    /* margin-left: 400px; */
+    width: 100%;
 }
 .art1{
     display: block;
@@ -567,11 +509,9 @@ body{
     gap: 40px;
 }
 section.contact{
-    /* background-color: rgb(231, 224, 224); */
-    gap:40px;
+  gap:50px;
     justify-content: center;
-    margin-left: -13px;
-    margin-right: 100px;
+    width: 100%;
 }
 .logoicone{  
     margin-left: 100px;
@@ -588,9 +528,8 @@ section.compet{
     text-align: center;
 }
 .back{
-  /* background-color: black; */
   color:  black;
-  margin-left: 100px;
+  margin-left: 10px;
 }
 .moi{
   width: 100px;
@@ -607,57 +546,35 @@ section.compet{
 .burger{
   display: none;
 }
-@media (max-width:768px) {
-  .contact{
-    align-items: center;
-    width: max-content;
-  }
-  
-  .infos{
-    align-items: center;
-    gap: 6px;
 
+.pcode{
+  width: 100%
   }
-  .moi{
-display: none;
-  }
-  .burger{
-    display: flex;
-  }
-  header h2{
-    display: flex;
-  }
-  footer h2{
-    display: flex;
-  }
-  footer{
-    width: auto;
-    margin-left: auto;
-  }
-  .back{
-    background-color:white;
-    color: black;
-  }
-}
+
 .animeFo{
   margin-top: 10px;
+}
+footer{
+  width: 100%;
+  background-color: whitesmoke;
+  margin-top:60px;
+
 }
 .monfooter{
   display: flex;
   margin-top: 100px;
-  background-image: url("./image/Sans\ titre.png");
   color: black;
-  padding-bottom: 100px;
-  padding-top: 200px;
+  width: 100%;
+
+  gap: 50px;
 }
 .projet{
   display: flex;
   gap: 45px;
   justify-content: center;
-  /* border: solid; */
   padding-top: 20px;
   padding-bottom: 20px;
-  margin-right: 20px;
+
 }
 .titleP{
   text-align: center;
@@ -673,4 +590,63 @@ display: none;
   font-weight: bold;
   transition:  .5s linear
 
+}
+.input{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap:30px;
+text-align: center;
+justify-content: center;
+margin-left: 400px;
+/* margin-top: 100px; */
+}
+.contact{
+  text-align: center;
+}
+@media (max-width:768px) {
+  header{
+    width: 100%;
+  }
+  header h2{
+    display: none;
+  }
+  nav{
+    display: none;
+  }
+  .insertion{
+    display: none;
+  }
+  .back{
+    width: 100%;
+    justify-content: center;
+  }
+  .annonce{
+    width: 100%;
+  }
+  .tout{
+    width: 100%;
+  }
+  .telechargement{
+    flex-direction: column;
+  }
+  .lili{
+    margin-right: 90px;
+  }
+  section .contact{
+    gap:6px
+  }
+  section.compet{
+    text-align: center;
+}
+  
+}
+
+@media (max-width:992px) {
+  .insertion{
+    display: none;
+   }  
+   section.compet{
+    text-align: center;
+}
 }
