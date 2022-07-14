@@ -20,6 +20,13 @@ text-align: center;
 padding-top: 80px;
 
 }
+.Input{
+  font-size: large;
+  font-style: italic;
+  font-weight: bold;
+font-family: 'Oswald', sans-serif;
+
+}
 .pcode p{
   color: white;
 }
@@ -137,15 +144,8 @@ font-size: x-large;
 
   }
   
-  /* .propos h2{
-     color: #fff;
-    text-shadow: 0 0 10px rgb(150, 23, 23),
-                 0 0 20px rgb(114, 9, 9), 
-                 0 0 40px rgb(143, 6, 6);
-                 text-transform:uppercase;
-                 font-size: xx-large;
-                 font-weight: bold;
-  } */
+  
+  
   .arti{
     margin-top: 40px;
     width: 100%;
@@ -358,12 +358,11 @@ margin-bottom: 40px;
     background: black;
   }
   
-  * { box-sizing: border-box }
+  * { box-sizing: border-box
+   }
 
  
-  .burger{
-    display: none;
-  }
+
 
   
  
@@ -509,9 +508,12 @@ body{
     gap: 40px;
 }
 section.contact{
-  gap:50px;
+  gap:15px;
     justify-content: center;
     width: 100%;
+    margin-left: 20px;
+    /* margin-right: 30px; */
+
 }
 .logoicone{  
     margin-left: 100px;
@@ -556,7 +558,7 @@ section.compet{
 }
 footer{
   width: 100%;
-  background-color: whitesmoke;
+  background-color: white;
   margin-top:60px;
 
 }
@@ -598,7 +600,7 @@ footer{
   gap:30px;
 text-align: center;
 justify-content: center;
-margin-left: 400px;
+/* margin-left: 400px; */
 /* margin-top: 100px; */
 }
 .contact{
@@ -639,6 +641,9 @@ margin-left: 400px;
   section.compet{
     text-align: center;
 }
+.burger{
+  display: block;
+}
   
 }
 
@@ -649,4 +654,14 @@ margin-left: 400px;
    section.compet{
     text-align: center;
 }
+.burger{
+  display: block;
+  background-color: white;
+}
+nav{
+  display: none;
+}
+}
+.burger{
+  display: none;
 }
