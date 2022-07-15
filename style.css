@@ -666,3 +666,8 @@ nav{
 .burger{
   display: none;
 }
+
+#particles-js {
+  /* background: black; */
+  /* height: 100vh; */
+}
