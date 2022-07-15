@@ -50,7 +50,7 @@ h4{
   background-image: url("./image/Océan\ Motivant\ Affiche1.png");
   padding-top: 50px;
   padding-bottom: 100px;
-  margin-top: 200px;
+  margin-top: 80px;
   padding-left: 100px;
   padding-right: 100px;
   width: 100%;
@@ -620,6 +620,10 @@ justify-content: center;
   .insertion{
     display: none;
   }
+  .Insertion{
+font-family: 'Courgette', cursive;
+font-size: large;
+}
   .back{
     width: 100%;
     justify-content: center;
@@ -669,5 +673,6 @@ nav{
 
 #particles-js {
   /* background: black; */
-  height: 100vh;
+  height: 100%;
+  
 }
