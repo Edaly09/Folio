@@ -359,23 +359,11 @@ margin-bottom: 40px;
     background: black;
   }
   
-  * { box-sizing: border-box
+  * { 
+    box-sizing: border-box
    }
 
- 
-
-
-  
- 
   /* accueil */
-
-  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
-/* font-family: 'Oswald', sans-serif; */
-@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
-/* font-family: 'Courgette', cursive; */
-
-
-
 
 .logo{
     width: 100px;
@@ -621,8 +609,8 @@ justify-content: center;
     display: none;
   }
   .Insertion{
-font-family: 'Courgette', cursive;
-font-size: large;
+    font-family: 'Courgette', cursive;
+    font-size: large;
 }
   .back{
     width: 100%;
@@ -638,7 +626,8 @@ font-size: large;
     flex-direction: column;
   }
   .lili{
-    margin-right: 90px;
+   text-align: center;
+
   }
   section .contact{
     gap:6px
