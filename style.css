@@ -13,13 +13,32 @@ header{
     width: 100%;
 }
 .pcode{
-background-image: url("./image/Monochrome\ Work\ Desk\ Design\ Proposal\ Presentation.png");
+/* background-image: url("./image/Monochrome\ Work\ Desk\ Design\ Proposal\ Presentation.png"); */
 padding-bottom: 200px;
 width: 100%;
 text-align: center;
 padding-top: 80px;
+background-repeat: no-repeat;
+background-size: cover;
 
 }
+body{
+  background-image: url("./image/Sans\ titre.png") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.projet p{
+font-family: 'Oswald', sans-serif;
+}
+.projet a{
+  text-decoration: none;
+}
+.projet{
+  cursor: pointer;
+    margin-bottom: 80px;
+  }
+
 .Input{
   font-size: large;
   font-style: italic;
@@ -29,14 +48,20 @@ font-family: 'Oswald', sans-serif;
 }
 .pcode p{
   color: white;
+font-family: 'Oswald', sans-serif;
+
 }
 
 .pcode a{
   color: white;
   text-decoration: none;
+font-family: 'Oswald', sans-serif;
+
 }
 .hi{
   background-color: rgb(41, 41, 119);
+  font-family: 'Oswald', sans-serif;
+
 }
 h4{
   text-align: center;
@@ -44,25 +69,11 @@ h4{
   padding-bottom: 40px;
   color: white;
   font-size:xx-large;
-}
-
-.annonce{
-  background-image: url("./image/Océan\ Motivant\ Affiche1.png");
-  padding-top: 50px;
-  padding-bottom: 100px;
-  margin-top: 80px;
-  padding-left: 100px;
-  padding-right: 100px;
-  width: 100%;
+  font-family: 'Oswald', sans-serif;
 
 }
-.annonce p{
-  color: white;
-  text-align: center;
-  font-family: 'Courgette', cursive;
-  font-size: xx-large;
 
-}
+
 
 nav{
     display: flex;
@@ -97,13 +108,11 @@ nav a:hover{
 
 }
 body{
-    /* background-image: url("/image/EDALY.png"); */
     font-family: 'Oswald', sans-serif;
     width: 100%;
 }
 .moi{
 text-align: center;
-/* margin-left: 10px; */
 }
 /* copier */
 h1{
@@ -121,7 +130,7 @@ h1{
   }
   h1 span{
     transition:  .5s linear;
-    color :black;
+    color :white;
   }
   
   h1:hover span{
@@ -133,7 +142,7 @@ h1{
   }
   .propos{
     text-align: justify;
-    margin-top: 30px;
+    margin-top: 8px;
     text-align: justify;
     margin-right: 20px;
     
@@ -256,18 +265,24 @@ margin-bottom: 40px;
     color: black;
     
   }
-  .insertion{
-    width: 20%;
-    border-radius: 50px;
-    display: flex;
-  }
+
   .Insertion{
     display: flex;
     gap: 70px;
     width: 100%;
-    margin-bottom:70px
+    margin-bottom:70px;
+    color: white;
+
   }
-  
+
+  .Insertion p{
+    font-size:large;
+font-family: 'Oswald', sans-serif;
+
+}
+  .centre{
+    /* margin-left: 460px; */
+  }
 
   
   @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
@@ -470,7 +485,8 @@ body{
 }
 .contact{
     display:flex;
-    width: 100%;
+    width: 50%;
+    margin-left: 50px;
 }
 .art1{
     display: block;
@@ -497,8 +513,8 @@ body{
     gap: 40px;
 }
 section.contact{
-  gap:10px;
-    justify-content: center;
+  gap: 20px;
+    /* justify-content: center; */
     width: 100%;
     margin-left: 7px;
     /* margin-right: 30px; */
@@ -511,6 +527,10 @@ section.contact{
 }
 section.compet{
     text-align: center;
+  color: white;
+
+  color: white;
+
 }
 .sql{
     width: 90px;
@@ -571,6 +591,8 @@ footer{
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
+  color: white;
+
 }
 .deezer:hover{
   text-shadow: 0 0 10px rgb(150, 23, 23),
@@ -594,6 +616,8 @@ justify-content: center;
 }
 .contact{
   text-align: center;
+  color: white;
+
 }
 @media (max-width:768px) {
   header{
