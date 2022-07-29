@@ -12,6 +12,60 @@ header{
     color: white;
     width: 100%;
 }
+/* Sidenav menu */
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: -250px;
+  background-color: blue;
+  padding-top: 60px;
+  transition: left 0.5s ease;
+}
+
+.sidenav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Sidenav menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #111;
+}
+
+/* Active class */
+.sidenav.active {
+  left: 0;
+}
+
+/* Close btn */
+.sidenav .close {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.burger-icon span {
+  display: block;
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+  margin-left: 20px;
+}
 .pcode{
 /* background-image: url("./image/Monochrome\ Work\ Desk\ Design\ Proposal\ Presentation.png"); */
 padding-bottom: 200px;
@@ -594,6 +648,16 @@ footer{
   color: white;
 
 }
+.card{
+
+  transition-property:all;
+  transition-duration: 1s;
+  transition-property: width;
+}
+.card:hover{
+  background-color: black;
+  transition-timing-function: ease-in;
+}
 .deezer:hover{
   text-shadow: 0 0 10px rgb(150, 23, 23),
   0 0 20px rgb(114, 9, 9), 
@@ -625,6 +689,9 @@ justify-content: center;
   }
   header h2{
     display: none;
+  }
+  .map{
+display: none;
   }
   nav{
     display: none;
