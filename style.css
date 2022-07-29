@@ -68,10 +68,10 @@ header{
 }
 .pcode{
 /* background-image: url("./image/Monochrome\ Work\ Desk\ Design\ Proposal\ Presentation.png"); */
-padding-bottom: 200px;
 width: 100%;
 text-align: center;
-padding-top: 80px;
+padding-top: 20px;
+/* padding-bottom: 20px; */
 background-repeat: no-repeat;
 background-size: cover;
 
@@ -331,12 +331,10 @@ margin-bottom: 40px;
 
   .Insertion p{
     font-size:large;
-font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;
 
 }
-  .centre{
-    /* margin-left: 460px; */
-  }
+
 
   
   @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
