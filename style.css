@@ -753,3 +753,46 @@ nav{
   height: 100vh;
   
 }
+footer{
+  background-color: white;
+  background-attachment: fixed;
+ 
+
+}
+.sect1 article {
+  /* margin-left: 20px;
+  margin-right: 20px; */
+  padding-top: 20px;
+  margin-top: 80px;
+  width: 100%;
+  display: flex;
+  gap: 40px;
+display: flex;
+justify-content: center;
+border-bottom-left-radius: 50%;
+}
+footer p{
+  font-size: medium;
+  font-weight: bold;
+/* font-family: 'Courgette', cursive; */
+font-family: 'Oswald', sans-serif;
+
+}
+.sect2{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.maPhoto{
+  width: 100px;
+  border-radius: 80px;
+}.copyright{
+  font-size: larger;
+  text-align: center;
+  background-color: white;
+}
+.copyright a{
+  text-decoration: none;
+  font-size:xx-large;
+  gap: 50px;
+}
